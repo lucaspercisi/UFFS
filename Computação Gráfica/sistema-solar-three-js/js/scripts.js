@@ -1,5 +1,8 @@
+//#region Classes
 import * as SistemaSolar from './SistemaSolar.js'
+//#endregion
 
+//#region Constantes
 const texturaEstrelas = "../img/stars.jpg";
 const texturaSol = "../img/sun.jpg";
 const texturaMercurio = "../img/mercury.jpg";
@@ -12,28 +15,30 @@ const texturaAnelSaturno = "../img/saturn ring.png";
 const texturaUrano = "../img/uranus.jpg";
 const texturaAnelUrano = "../img/uranus ring.png";
 const texturaNetuno = "../img/neptune.jpg";
+//#endregion
 
-
-const radius = 10;
-const MARGIN = 0;
-let SCREEN_HEIGHT = window.innerHeight - MARGIN * 2;
-let SCREEN_WIDTH = window.innerWidth;
-
+//#region Ambiente
 //cena
 const scene = new THREE.Scene();
 
+var SCREEN_WIDTH = window.innerWidth, SCREEN_HEIGHT = window.innerHeight;
+var VIEW_ANGLE = 45, ASPECT = SCREEN_WIDTH / SCREEN_HEIGHT, NEAR = 0.1, FAR = 20000;
 
-//camera
-const camera = new THREE.PerspectiveCamera(75, window.innerWidth/window.innerHeight, 0.1, 1000);
-camera.position.x = -200;
-camera.position.y = 150;
-camera.position.z = 0;
+var camera = new THREE.PerspectiveCamera( VIEW_ANGLE, ASPECT, NEAR, FAR);
+scene.add(camera);
+camera.position.set(-200,150,0);
+camera.lookAt(scene.position);	
 
+// var projector = new THREE.Projector();
+var mouse = { x: 0, y: 0 };
 
 //Renderizador
 const renderer = new THREE.WebGLRenderer();
 renderer.setSize(window.innerWidth, window.innerHeight);
 document.body.appendChild(renderer.domElement);
+
+//pegar evento de clique do mouse
+document.addEventListener('mousedown', OnDocumentMouseDown, false);
 
 var controls = new THREE.OrbitControls( camera, renderer.domElement );
 
@@ -45,86 +50,93 @@ controls.rollSpeed = Math.PI / 24;
 controls.autoForward = false;
 controls.dragToLook = false; */
 
-
 //Luz Ambiente
-const ambientLight = new THREE.AmbientLight(0x333333);
-scene.add(ambientLight);
+const luzAmbiente = new THREE.AmbientLight(0x333333);
+scene.add(luzAmbiente);
+
+//#endregion
+
+//#region Corpos Celestes
 
 AdicionarEstrelas();
 
+const sol = CriarSol();
 
-/* const cubeTextureLoader = new THREE.CubeTextureLoader();
-scene.background = cubeTextureLoader.load([
-    texturaEstrelas,
-    texturaEstrelas,
-    texturaEstrelas,
-    texturaEstrelas,
-    texturaEstrelas,
-    texturaEstrelas
-]); */
+const mercurio = CriarPlaneta(3.2, texturaMercurio, 28);
+const venus = CriarPlaneta(5.8, texturaVenus, 44);
+const terra = CriarPlaneta(6, texturaTerra, 62);
+const marte = CriarPlaneta(4, texturaMarte, 78);
+const jupiter = CriarPlaneta(12, texturaJupiter, 100);
 
-
-const textureLoader = new THREE.TextureLoader();
-const sunGeo = new THREE.SphereGeometry(16, 30, 30);
-const sunMat = new THREE.MeshBasicMaterial({
-    map: textureLoader.load(texturaSol)
-});
-const sun = new THREE.Mesh(sunGeo, sunMat);
-scene.add(sun);
-
-const pointLight = new THREE.PointLight(0xFFFFFF, 2, 300);
-scene.add(pointLight);
-
-
-function createPlanete(size, texture, position, ring) {
-    const geo = new THREE.SphereGeometry(size, 30, 30);
-    const mat = new THREE.MeshStandardMaterial({
-        map: textureLoader.load(texture)
-    });
-    const mesh = new THREE.Mesh(geo, mat);
-    const obj = new THREE.Object3D();
-    obj.add(mesh);
-    
-    if(ring) {
-        const ringGeo = new THREE.RingGeometry(
-            ring.innerRadius,
-            ring.outerRadius,
-            32);
-            const ringMat = new THREE.MeshBasicMaterial({
-                map: textureLoader.load(ring.texture),
-                side: THREE.DoubleSide
-            });
-            const ringMesh = new THREE.Mesh(ringGeo, ringMat);
-            obj.add(ringMesh);
-            ringMesh.position.x = position;
-            ringMesh.rotation.x = -0.5 * Math.PI;
-        }
-        
-        scene.add(obj);
-        mesh.position.x = position;
-        return {mesh, obj}
-    }
-    
-    const mercury = createPlanete(3.2, texturaMercurio, 28);
-    const venus = createPlanete(5.8, texturaVenus, 44);
-    const earth = createPlanete(6, texturaTerra, 62);
-    const mars = createPlanete(4, texturaMarte, 78);
-const jupiter = createPlanete(12, texturaJupiter, 100);
-const saturn = createPlanete(10, texturaSaturno, 138, {
+const saturno = CriarPlaneta(10, texturaSaturno, 138, {
     innerRadius: 10,
     outerRadius: 20,
     texture: texturaAnelSaturno
 });
-const uranus = createPlanete(7, texturaUrano, 176, {
+
+const urano = CriarPlaneta(7, texturaUrano, 176, {
     innerRadius: 7,
     outerRadius: 12,
     texture: texturaAnelUrano
 });
-const neptune = createPlanete(7, texturaNetuno, 200);
+
+const netuno = CriarPlaneta(7, texturaNetuno, 200);
+
+//#endregion
+
+function CriarSol()
+{
+    const textureLoader = new THREE.TextureLoader();
+    const solGeo = new THREE.SphereGeometry(16, 30, 30);
+    const solMat = new THREE.MeshBasicMaterial({
+        map: textureLoader.load(texturaSol)
+    });
+    const sol = new THREE.Mesh(solGeo, solMat);
+    scene.add(sol);
+
+    //Luz do sol
+    const pontoLuzSol = new THREE.PointLight(0xFFFFFF, 2, 300);
+    scene.add(pontoLuzSol);
+
+    return sol;
+}
+
+function CriarPlaneta(tamanho, textura, posicao, anel) 
+{
+    const textureLoader = new THREE.TextureLoader();
+    const geo = new THREE.SphereGeometry(tamanho, 30, 30);
+    
+    const mat = new THREE.MeshStandardMaterial({
+        map: textureLoader.load(textura)
+    });
+
+    const mesh = new THREE.Mesh(geo, mat);
+    const obj = new THREE.Object3D();
+    obj.add(mesh);
+    
+    if(anel) 
+    {
+        const ringGeo = new THREE.RingGeometry(anel.innerRadius,anel.outerRadius,32);
+        
+        const ringMat = new THREE.MeshBasicMaterial({
+            map: textureLoader.load(anel.texture),
+            side: THREE.DoubleSide
+        });
+                                
+        const ringMesh = new THREE.Mesh(ringGeo, ringMat);
+        obj.add(ringMesh);
+        ringMesh.position.x = posicao;
+        ringMesh.rotation.x = -0.5 * Math.PI;
+    }
+        
+    scene.add(obj);
+    mesh.position.x = posicao;
+    return {mesh, obj}
+}
 
 function AdicionarEstrelas()
 {
-    const r = radius, starsGeometry = [ new THREE.BufferGeometry(), new THREE.BufferGeometry() ];
+    const r = 10, estrelasGeo = [ new THREE.BufferGeometry(), new THREE.BufferGeometry() ];
 
     const vertices1 = [];
     const vertices2 = [];
@@ -153,10 +165,10 @@ function AdicionarEstrelas()
 
     }
 
-    starsGeometry[ 0 ].setAttribute( 'position', new THREE.Float32BufferAttribute( vertices1, 3 ) );
-    starsGeometry[ 1 ].setAttribute( 'position', new THREE.Float32BufferAttribute( vertices2, 3 ) );
+    estrelasGeo[ 0 ].setAttribute( 'position', new THREE.Float32BufferAttribute( vertices1, 3 ) );
+    estrelasGeo[ 1 ].setAttribute( 'position', new THREE.Float32BufferAttribute( vertices2, 3 ) );
 
-    const starsMaterials = [
+    const estrelasMat = [
         new THREE.PointsMaterial( { color: 0x555555, size: 2, sizeAttenuation: false } ),
         new THREE.PointsMaterial( { color: 0x555555, size: 1, sizeAttenuation: false } ),
         new THREE.PointsMaterial( { color: 0x333333, size: 2, sizeAttenuation: false } ),
@@ -167,7 +179,7 @@ function AdicionarEstrelas()
 
     for ( let i = 10; i < 30; i ++ ) {
 
-        const stars = new THREE.Points( starsGeometry[ i % 2 ], starsMaterials[ i % 6 ] );
+        const stars = new THREE.Points( estrelasGeo[ i % 2 ], estrelasMat[ i % 6 ] );
 
         stars.rotation.x = Math.random() * 6;
         stars.rotation.y = Math.random() * 6;
@@ -187,28 +199,75 @@ function AdicionarEstrelas()
     document.body.appendChild( renderer.domElement );
 }
 
-var animate = function() {
-    requestAnimationFrame(animate);
+function OnDocumentMouseDown( event ) 
+{
+    // Get the mouse X and Y screen positions, and scale them to [-1, 1] ranges, position (-1, 1) being the upper left side of the screen.
+    mouse.x = (event.clientX / window.innerWidth) * 2 - 1;
+    mouse.y = - (event.clientY / window.innerHeight) * 2 + 1;
+
+    // Create Vector3 from mouse position, with Z = 0
+    var mousePos = new THREE.Vector3(mouse.x, mouse.y, 0);
+
+    // Create a picking-specific RayCaster from Three.js library 
+    var projector = new THREE.Projector();
+    var ray = new THREE.Raycaster( camera.position, mousePos.sub( camera.position ).normalize() );
+    ray = projector.raycaster.setFromCamera(mousePos, camera);
+
+    // Get the list of all scene children intersected by Raycaster
+    var out = ray.intersectObjects(scene.children, false);
+
+    if (old)
+    {
+        // Unselect the previous building
+        old.material.color.setHex(0xaaaaaa);
+    }
+    if (out.length != 0)
+    {
+        
+        var newEvent = new CustomEvent('meshClicked', {
+            detail:{
+                'mesh': out[0].object,
+                'point': out[0].point 
+            }
+        });
+        window.dispatchEvent(newEvent);
+
+        // Color/uncolor the selected/unselected building
+        /*if (old == out[0].object)
+            out[0].object.material.color.setHex(0xaaaaaa);
+        else
+            out[0].object.material.color.setHex(0xff0000);*/
+
+        old = out[0].object;
+
+        //var data = wm.get(out[0])
+        camera.lookAt(new THREE.Vector3( out[0].point.x, out[0].point.y, out[0].point.z ));
+    }
+
+}
+
+var Animate = function() {
+    requestAnimationFrame(Animate);
 	//Rotação
-	sun.rotateY(0.004);
-	mercury.mesh.rotateY(0.004);
+	sol.rotateY(0.004);
+	mercurio.mesh.rotateY(0.004);
 	venus.mesh.rotateY(0.002);
-	earth.mesh.rotateY(0.02);
-	mars.mesh.rotateY(0.018);
+	terra.mesh.rotateY(0.02);
+	marte.mesh.rotateY(0.018);
 	jupiter.mesh.rotateY(0.04);
-	saturn.mesh.rotateY(0.038);
-	uranus.mesh.rotateY(0.03);
-	neptune.mesh.rotateY(0.032);
+	saturno.mesh.rotateY(0.038);
+	urano.mesh.rotateY(0.03);
+	netuno.mesh.rotateY(0.032);
     
 	//Translação
-	mercury.obj.rotateY(0.04);
+	mercurio.obj.rotateY(0.04);
 	venus.obj.rotateY(0.015);
-	earth.obj.rotateY(0.01);
-	mars.obj.rotateY(0.008);
+	terra.obj.rotateY(0.01);
+	marte.obj.rotateY(0.008);
 	jupiter.obj.rotateY(0.002);
-	saturn.obj.rotateY(0.0009);
-	uranus.obj.rotateY(0.0004);
-	neptune.obj.rotateY(0.0001);
+	saturno.obj.rotateY(0.0009);
+	urano.obj.rotateY(0.0004);
+	netuno.obj.rotateY(0.0001);
     
 	renderer.render(scene, camera);
     /* 	console.log(camera.position.x);
@@ -218,4 +277,4 @@ var animate = function() {
 	
 };
 
-animate();
+Animate();
