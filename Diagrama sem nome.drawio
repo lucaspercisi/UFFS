@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-28T11:43:40.809Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="0yky1Df1tfgVrs8T4rvN" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-04T19:38:07.420Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="tYWCHhjDgIEBuwYGI-ma" version="20.6.0" type="github">
   <diagram id="OYgyoeQ4cRTz8VLO4bsm" name="Página-1">
-    <mxGraphModel dx="2249" dy="1927" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2729" dy="2155" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -51,7 +51,7 @@
           <mxGeometry x="-210" y="-360" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Zu5s9qkrUJdbfHZ7qnUy-36" value="Gerenciar Reservas&lt;br&gt;UC08" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-360" y="80" width="120" height="80" as="geometry" />
+          <mxGeometry x="-360" y="70" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Zu5s9qkrUJdbfHZ7qnUy-57" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;" parent="1" source="Zu5s9qkrUJdbfHZ7qnUy-46" target="Zu5s9qkrUJdbfHZ7qnUy-56" edge="1">
           <mxGeometry relative="1" as="geometry" />
