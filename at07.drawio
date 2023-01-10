@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-10T00:47:53.137Z" agent="5.0 (Windows)" etag="jJBFu2mnzICzqYBXRSNn" version="20.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-10T01:03:42.756Z" agent="5.0 (Windows)" etag="Z2vqP2imxzGHKwcqAjXU" version="20.8.3" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
-    <mxGraphModel dx="2033" dy="314" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
+    <mxGraphModel dx="3609" dy="887" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -124,7 +124,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eOP46b5mC05c39May2BV-58" value="Verificar ofertas" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=default;strokeColor=inherit;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fontColor=rgb(0, 0, 0);fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="20" y="690" width="120" height="60" as="geometry" />
+          <mxGeometry y="690" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="eOP46b5mC05c39May2BV-89" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=rgb(0, 0, 0);" edge="1" parent="1" source="eOP46b5mC05c39May2BV-59" target="eOP46b5mC05c39May2BV-57">
           <mxGeometry relative="1" as="geometry">
@@ -156,11 +156,6 @@
         <mxCell id="eOP46b5mC05c39May2BV-106" value="SIM" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#393C56;" vertex="1" connectable="0" parent="eOP46b5mC05c39May2BV-98">
           <mxGeometry x="-0.2444" y="-1" relative="1" as="geometry">
             <mxPoint x="-4" y="1" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="eOP46b5mC05c39May2BV-125" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#000000;fontSize=12;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="eOP46b5mC05c39May2BV-61">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="610" y="1050" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="eOP46b5mC05c39May2BV-61" value="Houve lance?" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=default;strokeColor=inherit;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fontColor=rgb(0, 0, 0);fillColor=none;" vertex="1" parent="1">
