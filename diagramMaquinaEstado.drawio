@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-17T23:39:54.313Z" agent="5.0 (Windows)" etag="dX9DkApl7KQT1SljwBgL" version="20.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-17T23:43:37.148Z" agent="5.0 (Windows)" etag="4UHH_4QpaHFEKckoSDIB" version="20.8.5" type="github">
   <diagram id="F2zN1XWDJCxbZWkZuF5S" name="Página-1">
-    <mxGraphModel dx="1876" dy="1367" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="897" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -595,12 +595,12 @@
           <mxGeometry y="30" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="XpTpxVxSgnCetN0Bl5ae-54" value="AdicionandoVatagem" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
-          <mxGeometry x="151.5" y="7730" width="160" height="70" as="geometry">
+          <mxGeometry x="150" y="7679" width="160" height="71" as="geometry">
             <mxRectangle x="364" y="400" width="130" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="XpTpxVxSgnCetN0Bl5ae-55" value="entry / adicionarVatagem()" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="XpTpxVxSgnCetN0Bl5ae-54">
-          <mxGeometry y="30" width="160" height="40" as="geometry" />
+          <mxGeometry y="30" width="160" height="41" as="geometry" />
         </mxCell>
         <mxCell id="XpTpxVxSgnCetN0Bl5ae-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XpTpxVxSgnCetN0Bl5ae-53" target="XpTpxVxSgnCetN0Bl5ae-30">
           <mxGeometry relative="1" as="geometry" />
@@ -613,13 +613,13 @@
         <mxCell id="XpTpxVxSgnCetN0Bl5ae-57" value="Vatagem atualizada" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="XpTpxVxSgnCetN0Bl5ae-51" target="XpTpxVxSgnCetN0Bl5ae-39">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XpTpxVxSgnCetN0Bl5ae-59" value="Vatagem Adicionada" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="XpTpxVxSgnCetN0Bl5ae-55" target="XpTpxVxSgnCetN0Bl5ae-40">
+        <mxCell id="XpTpxVxSgnCetN0Bl5ae-59" value="Vatagem Adicionada" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="XpTpxVxSgnCetN0Bl5ae-68" target="XpTpxVxSgnCetN0Bl5ae-40">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XpTpxVxSgnCetN0Bl5ae-62" value="AtaulizarVatagem" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XpTpxVxSgnCetN0Bl5ae-61" target="XpTpxVxSgnCetN0Bl5ae-50">
+        <mxCell id="XpTpxVxSgnCetN0Bl5ae-62" value="AtaulizarVantagem" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XpTpxVxSgnCetN0Bl5ae-61" target="XpTpxVxSgnCetN0Bl5ae-50">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XpTpxVxSgnCetN0Bl5ae-63" value="RemoverVatagem" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XpTpxVxSgnCetN0Bl5ae-61" target="XpTpxVxSgnCetN0Bl5ae-52">
+        <mxCell id="XpTpxVxSgnCetN0Bl5ae-63" value="RemoverVantagem" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XpTpxVxSgnCetN0Bl5ae-61" target="XpTpxVxSgnCetN0Bl5ae-52">
           <mxGeometry x="-0.2121" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -627,7 +627,7 @@
         <mxCell id="XpTpxVxSgnCetN0Bl5ae-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XpTpxVxSgnCetN0Bl5ae-61" target="XpTpxVxSgnCetN0Bl5ae-54">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XpTpxVxSgnCetN0Bl5ae-66" value="NovaVatagem" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XpTpxVxSgnCetN0Bl5ae-64">
+        <mxCell id="XpTpxVxSgnCetN0Bl5ae-66" value="NovaVantagem" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XpTpxVxSgnCetN0Bl5ae-64">
           <mxGeometry x="-0.1695" y="-3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -636,6 +636,17 @@
           <mxGeometry x="391.5" y="7599" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="XpTpxVxSgnCetN0Bl5ae-65" value="Vatagem selecionada" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XpTpxVxSgnCetN0Bl5ae-32" target="XpTpxVxSgnCetN0Bl5ae-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XpTpxVxSgnCetN0Bl5ae-67" value="ValidandoVatagem" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="150" y="7790" width="160" height="70" as="geometry">
+            <mxRectangle x="364" y="400" width="130" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XpTpxVxSgnCetN0Bl5ae-68" value="entry / validarVatagem()" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="XpTpxVxSgnCetN0Bl5ae-67">
+          <mxGeometry y="30" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XpTpxVxSgnCetN0Bl5ae-69" value="Vatagem Criada" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XpTpxVxSgnCetN0Bl5ae-55" target="XpTpxVxSgnCetN0Bl5ae-67">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
