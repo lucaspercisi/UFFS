@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-17T01:13:45.103Z" agent="5.0 (Windows)" version="20.8.3" etag="GGMAfomFhvDoR4fD89jc" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-17T01:16:30.103Z" agent="5.0 (Windows)" version="20.8.3" etag="vwMkpaX6GhRA7bBeDB3q" type="github">
   <diagram id="F2zN1XWDJCxbZWkZuF5S" name="Página-1">
-    <mxGraphModel dx="712" dy="519" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1032" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -175,14 +175,14 @@
         <mxCell id="l5w-JMVzP2Q6S9-00Q8j-60" value="do / ConsultarLivros(filtro)" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="l5w-JMVzP2Q6S9-00Q8j-59">
           <mxGeometry y="30" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="l5w-JMVzP2Q6S9-00Q8j-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="l5w-JMVzP2Q6S9-00Q8j-62" target="l5w-JMVzP2Q6S9-00Q8j-52">
+        <mxCell id="l5w-JMVzP2Q6S9-00Q8j-75" value="Livro Selecionado" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="l5w-JMVzP2Q6S9-00Q8j-62" target="l5w-JMVzP2Q6S9-00Q8j-52">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="l5w-JMVzP2Q6S9-00Q8j-62" value="&lt;div&gt;Apresentando Livros&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="349" y="1460" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="l5w-JMVzP2Q6S9-00Q8j-70" value="CadastrandoInvetario" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
-          <mxGeometry x="339" y="1680" width="160" height="70" as="geometry">
+          <mxGeometry x="339" y="1670" width="160" height="70" as="geometry">
             <mxRectangle x="364" y="400" width="130" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -200,7 +200,7 @@
         <mxCell id="l5w-JMVzP2Q6S9-00Q8j-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="l5w-JMVzP2Q6S9-00Q8j-53" target="l5w-JMVzP2Q6S9-00Q8j-70">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="l5w-JMVzP2Q6S9-00Q8j-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="l5w-JMVzP2Q6S9-00Q8j-71" target="l5w-JMVzP2Q6S9-00Q8j-72">
+        <mxCell id="l5w-JMVzP2Q6S9-00Q8j-77" value="Livro cadastrado" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="l5w-JMVzP2Q6S9-00Q8j-71" target="l5w-JMVzP2Q6S9-00Q8j-72">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="l5w-JMVzP2Q6S9-00Q8j-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="l5w-JMVzP2Q6S9-00Q8j-73" target="l5w-JMVzP2Q6S9-00Q8j-51">
@@ -270,11 +270,19 @@
         <mxCell id="l5w-JMVzP2Q6S9-00Q8j-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="l5w-JMVzP2Q6S9-00Q8j-92" target="l5w-JMVzP2Q6S9-00Q8j-105">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="l5w-JMVzP2Q6S9-00Q8j-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="l5w-JMVzP2Q6S9-00Q8j-85" target="l5w-JMVzP2Q6S9-00Q8j-97">
+        <mxCell id="l5w-JMVzP2Q6S9-00Q8j-110" value="Livro Cadastrado" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="l5w-JMVzP2Q6S9-00Q8j-85" target="l5w-JMVzP2Q6S9-00Q8j-97">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="l5w-JMVzP2Q6S9-00Q8j-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="l5w-JMVzP2Q6S9-00Q8j-98" target="l5w-JMVzP2Q6S9-00Q8j-83">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l5w-JMVzP2Q6S9-00Q8j-113" value="Histórico registrado" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="l5w-JMVzP2Q6S9-00Q8j-111">
+          <mxGeometry x="-0.5" y="1" relative="1" as="geometry">
+            <mxPoint x="-27" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l5w-JMVzP2Q6S9-00Q8j-114" value="Histórico registrado" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="569.9974854655369" y="1815.0025663764195" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
