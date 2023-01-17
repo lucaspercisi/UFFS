@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-17T00:08:25.901Z" agent="5.0 (Windows)" etag="Pdeu7e5MKVmVXciopBh5" version="20.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-17T00:10:56.670Z" agent="5.0 (Windows)" etag="CTHkIxTbVGK_VxBIYqdr" version="20.8.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="893" dy="1310" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1753" dy="1965" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -57,7 +57,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RFLqyy4pMrzeT3K8V6dZ-22" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;br&gt;&lt;b&gt;Inventario&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- _codigo { get; set; } : int&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;div&gt;&amp;nbsp;- _livros {get; set;} : List&amp;lt;Livro&amp;gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ CadatrarAluguel(Livro, Pessoa) : bool&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ ObterInventario : List&amp;lt;Livro&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ CadastrarLivro(Livro) : bool&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ RemoverLivro(Livro) : bool&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1440" y="1310" width="315" height="171" as="geometry" />
+          <mxGeometry x="1345" y="1169" width="315" height="171" as="geometry" />
         </mxCell>
         <mxCell id="4tAvG0vaQPz1jM_gbL4b-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-Sg6WvOEFxhqEQ3z-Amf-2" target="RFLqyy4pMrzeT3K8V6dZ-17">
           <mxGeometry relative="1" as="geometry" />
@@ -75,7 +75,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="shzfrs4hRoEJ1wq8fZkQ-6" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;CriteriosDoacao&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;-&amp;nbsp; _codigo { get; set; } : int&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;-&amp;nbsp; _emailVerificado { get; set; } : bool&lt;/p&gt;&amp;nbsp;- _notaMinima { get; set; } : decimal&lt;br&gt;&lt;div&gt;&amp;nbsp;- _doacoesMinimas { get; set; } : int&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div&gt;&amp;nbsp;+ ObterLivroDoacao(Livro) : bool&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ CadastrarLivroDoacao(Livro) : bool&lt;br&gt;&amp;nbsp;+ ObterCriteriosDoacao() : CriteriosDoacao&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ Consultar(int) : CriteriosDoacao&lt;/div&gt;&lt;div&gt;&lt;div&gt;&amp;nbsp;+ Editar(CriteriosDoacao) : bool&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;&amp;nbsp;- _verificarRecebimentoDoacaoValida(Livro) : bool&lt;br&gt;&amp;nbsp;- _verificarCadastroDoacaoValida(Livro) : bool&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1783" y="1310" width="320" height="260" as="geometry" />
+          <mxGeometry x="1748" y="1320" width="320" height="260" as="geometry" />
         </mxCell>
         <mxCell id="4tAvG0vaQPz1jM_gbL4b-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="shzfrs4hRoEJ1wq8fZkQ-7" target="RFLqyy4pMrzeT3K8V6dZ-8">
           <mxGeometry relative="1" as="geometry" />
