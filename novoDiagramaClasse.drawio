@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-17T00:10:56.670Z" agent="5.0 (Windows)" etag="CTHkIxTbVGK_VxBIYqdr" version="20.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-17T00:11:14.680Z" agent="5.0 (Windows)" etag="LVCvSZ39lJDZ7u_iBoKl" version="20.8.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1753" dy="1965" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1237" dy="1572" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -63,13 +63,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-Sg6WvOEFxhqEQ3z-Amf-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;EnumeradorTipo&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ AceroProprio: 1&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ Doacao: 2&lt;/p&gt;&lt;div&gt;&amp;nbsp;+ Emprestado: 3&lt;/div&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1320" y="640" width="110" height="100" as="geometry" />
+          <mxGeometry x="1310" y="640" width="110" height="100" as="geometry" />
         </mxCell>
         <mxCell id="4tAvG0vaQPz1jM_gbL4b-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="shzfrs4hRoEJ1wq8fZkQ-0" target="RFLqyy4pMrzeT3K8V6dZ-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="shzfrs4hRoEJ1wq8fZkQ-0" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;EnumeradorStatus&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ Pendente: 1&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ Aprovado : 2&lt;/p&gt;&lt;div&gt;&amp;nbsp;+ Reprovado: 3&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ Disponivel: 4&lt;br&gt;&amp;nbsp;+ Indisponivel : 5&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1190" y="640" width="120" height="110.75" as="geometry" />
+          <mxGeometry x="1181" y="640" width="120" height="110.75" as="geometry" />
         </mxCell>
         <mxCell id="4tAvG0vaQPz1jM_gbL4b-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="shzfrs4hRoEJ1wq8fZkQ-6" target="RFLqyy4pMrzeT3K8V6dZ-5">
           <mxGeometry relative="1" as="geometry" />
