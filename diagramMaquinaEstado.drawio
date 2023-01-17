@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2023-01-17T23:36:38.027Z" agent="5.0 (Windows)" etag="zEjWIcjVeN6lByDA0oWB" version="20.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-17T23:39:54.313Z" agent="5.0 (Windows)" etag="dX9DkApl7KQT1SljwBgL" version="20.8.5" type="github">
   <diagram id="F2zN1XWDJCxbZWkZuF5S" name="Página-1">
-    <mxGraphModel dx="2551" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1876" dy="1367" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="XpTpxVxSgnCetN0Bl5ae-27" value="&lt;div&gt;UC09 - Gerenciar&lt;br&gt;Vantagens Pontuação&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;width=155;height=50;" vertex="1" parent="1">
-          <mxGeometry x="-1000" y="7110" width="690" height="820" as="geometry" />
+          <mxGeometry x="50" y="7200" width="720" height="850" as="geometry" />
         </mxCell>
         <mxCell id="l5w-JMVzP2Q6S9-00Q8j-174" value="&lt;div&gt;UC07 - Obter Doação&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;width=150;height=40;" parent="1" vertex="1">
-          <mxGeometry x="74" y="4870" width="690" height="690" as="geometry" />
+          <mxGeometry x="81" y="4910" width="690" height="690" as="geometry" />
         </mxCell>
         <mxCell id="l5w-JMVzP2Q6S9-00Q8j-48" value="&lt;div&gt;UC03 - Alugar Livro&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;width=150;height=40;" parent="1" vertex="1">
           <mxGeometry x="69" y="1440" width="690" height="690" as="geometry" />
@@ -534,7 +534,7 @@
             <mxRectangle x="364" y="400" width="130" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XpTpxVxSgnCetN0Bl5ae-32" value="entry / exibirCriterios()" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="XpTpxVxSgnCetN0Bl5ae-31">
+        <mxCell id="XpTpxVxSgnCetN0Bl5ae-32" value="entry / exibirVatagem()" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="XpTpxVxSgnCetN0Bl5ae-31">
           <mxGeometry y="30" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="XpTpxVxSgnCetN0Bl5ae-33" value="Vatagens encotradas" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XpTpxVxSgnCetN0Bl5ae-37" target="XpTpxVxSgnCetN0Bl5ae-31">
