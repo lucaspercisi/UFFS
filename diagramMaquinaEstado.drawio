@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-17T23:20:40.557Z" agent="5.0 (Windows)" etag="3mdDOcl5a8IK0q8bjWrA" version="20.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-17T23:22:03.504Z" agent="5.0 (Windows)" etag="eOZJD8W3fpbUAvT2Uf6O" version="20.8.5" type="github">
   <diagram id="F2zN1XWDJCxbZWkZuF5S" name="Página-1">
-    <mxGraphModel dx="983" dy="716" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4128" dy="3008" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -486,14 +486,6 @@
         <mxCell id="XpTpxVxSgnCetN0Bl5ae-12" value="do / obterCriterioDoacao" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="XpTpxVxSgnCetN0Bl5ae-11">
           <mxGeometry y="30" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="XpTpxVxSgnCetN0Bl5ae-13" value="RegistrandoHistorico" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
-          <mxGeometry x="365" y="6644" width="160" height="70" as="geometry">
-            <mxRectangle x="364" y="400" width="130" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="XpTpxVxSgnCetN0Bl5ae-14" value="entry / registrarHistorico()" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="XpTpxVxSgnCetN0Bl5ae-13">
-          <mxGeometry y="30" width="160" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="XpTpxVxSgnCetN0Bl5ae-16" value="BuscandoCriterios" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
           <mxGeometry x="335" y="6229" width="220" height="70" as="geometry">
             <mxRectangle x="120" y="220" width="120" height="30" as="alternateBounds" />
@@ -505,14 +497,6 @@
         <mxCell id="XpTpxVxSgnCetN0Bl5ae-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="XpTpxVxSgnCetN0Bl5ae-12" target="XpTpxVxSgnCetN0Bl5ae-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XpTpxVxSgnCetN0Bl5ae-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="XpTpxVxSgnCetN0Bl5ae-14" target="XpTpxVxSgnCetN0Bl5ae-4">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="XpTpxVxSgnCetN0Bl5ae-21" value="Histórico registrado" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XpTpxVxSgnCetN0Bl5ae-20">
-          <mxGeometry x="-0.5" y="1" relative="1" as="geometry">
-            <mxPoint x="4" y="-4" as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="XpTpxVxSgnCetN0Bl5ae-22" value="SalvandoCriterio" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
           <mxGeometry x="365" y="6494" width="160" height="70" as="geometry">
             <mxRectangle x="364" y="400" width="130" height="30" as="alternateBounds" />
@@ -521,13 +505,16 @@
         <mxCell id="XpTpxVxSgnCetN0Bl5ae-23" value="entry / SalvarCriterio()" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="XpTpxVxSgnCetN0Bl5ae-22">
           <mxGeometry y="30" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="XpTpxVxSgnCetN0Bl5ae-24" value="Criterio de doação editado" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="XpTpxVxSgnCetN0Bl5ae-23" target="XpTpxVxSgnCetN0Bl5ae-13">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="XpTpxVxSgnCetN0Bl5ae-24" value="Criterio de doação Salvo" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="XpTpxVxSgnCetN0Bl5ae-23" target="XpTpxVxSgnCetN0Bl5ae-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="445" y="6644" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="445" y="6640" />
+              <mxPoint x="654" y="6640" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="XpTpxVxSgnCetN0Bl5ae-19" value="Criterio de doação modificado" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="XpTpxVxSgnCetN0Bl5ae-6" target="XpTpxVxSgnCetN0Bl5ae-22">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="XpTpxVxSgnCetN0Bl5ae-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XpTpxVxSgnCetN0Bl5ae-6" target="XpTpxVxSgnCetN0Bl5ae-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
