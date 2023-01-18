@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-18T00:13:39.516Z" agent="5.0 (Windows)" etag="snsLeUoUGQpNcVWkQTXm" version="20.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-18T00:20:38.740Z" agent="5.0 (Windows)" etag="GdvVbYrz3flczRcCoL8B" version="20.8.5" type="github">
   <diagram id="F2zN1XWDJCxbZWkZuF5S" name="Página-1">
-    <mxGraphModel dx="2064" dy="1504" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="983" dy="716" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1059,6 +1059,9 @@
         </mxCell>
         <mxCell id="XpTpxVxSgnCetN0Bl5ae-185" value="Livros Encontrados" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XpTpxVxSgnCetN0Bl5ae-184" target="XpTpxVxSgnCetN0Bl5ae-154">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XpTpxVxSgnCetN0Bl5ae-190" value="Usuário irá informar os dados na tela de login. O sistema irá validar os dados informados. Caso os dados estejam válido, a conta será criada." style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="51" y="390" width="269" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
