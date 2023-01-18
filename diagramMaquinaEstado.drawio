@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-18T00:58:23.242Z" agent="5.0 (Windows)" etag="YMAVh6jEjjt9MtbWOHka" version="20.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-18T01:05:38.540Z" agent="5.0 (Windows)" etag="jfBOEs1cF26sPO1cXygy" version="20.8.5" type="github">
   <diagram id="F2zN1XWDJCxbZWkZuF5S" name="Página-1">
-    <mxGraphModel dx="1876" dy="1367" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1588" dy="1157" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -653,19 +653,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XpTpxVxSgnCetN0Bl5ae-70" value="&lt;div&gt;UC10 - Gerenciar&lt;br&gt;Usuarios&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;width=155;height=50;" vertex="1" parent="1">
-          <mxGeometry x="30" y="8300" width="764" height="850" as="geometry" />
+          <mxGeometry x="32" y="8373" width="768" height="767" as="geometry" />
         </mxCell>
         <mxCell id="XpTpxVxSgnCetN0Bl5ae-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="XpTpxVxSgnCetN0Bl5ae-72" target="XpTpxVxSgnCetN0Bl5ae-77">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XpTpxVxSgnCetN0Bl5ae-72" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
-          <mxGeometry x="182" y="8380" width="30" height="30" as="geometry" />
+          <mxGeometry x="226.5" y="8420" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="XpTpxVxSgnCetN0Bl5ae-73" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
-          <mxGeometry x="639.5" y="9050" width="30" height="30" as="geometry" />
+          <mxGeometry x="684" y="9090" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="XpTpxVxSgnCetN0Bl5ae-74" value="ExibindoUsuarios" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
-          <mxGeometry x="375" y="8585" width="160" height="70" as="geometry">
+          <mxGeometry x="419.5" y="8625" width="160" height="70" as="geometry">
             <mxRectangle x="364" y="400" width="130" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -674,11 +674,11 @@
         </mxCell>
         <mxCell id="XpTpxVxSgnCetN0Bl5ae-76" value="UsuariosEncontrados" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XpTpxVxSgnCetN0Bl5ae-80" target="XpTpxVxSgnCetN0Bl5ae-74">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="455" y="8640" as="sourcePoint" />
+            <mxPoint x="499.5" y="8680" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="XpTpxVxSgnCetN0Bl5ae-77" value="ObtendoUsuarios" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
-          <mxGeometry x="110" y="8455" width="174" height="70" as="geometry">
+          <mxGeometry x="154.5" y="8495" width="174" height="70" as="geometry">
             <mxRectangle x="120" y="220" width="120" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -686,7 +686,7 @@
           <mxGeometry y="30" width="174" height="40" as="geometry" />
         </mxCell>
         <mxCell id="XpTpxVxSgnCetN0Bl5ae-79" value="BuscandoUsuarios" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
-          <mxGeometry x="345" y="8455" width="220" height="70" as="geometry">
+          <mxGeometry x="389.5" y="8495" width="220" height="70" as="geometry">
             <mxRectangle x="120" y="220" width="120" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -697,7 +697,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XpTpxVxSgnCetN0Bl5ae-82" value="SalvandoUsuario" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
-          <mxGeometry x="374.5" y="8970" width="160" height="70" as="geometry">
+          <mxGeometry x="419" y="9010" width="160" height="70" as="geometry">
             <mxRectangle x="364" y="400" width="130" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -706,15 +706,15 @@
         </mxCell>
         <mxCell id="XpTpxVxSgnCetN0Bl5ae-84" value="Usuario salvo" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XpTpxVxSgnCetN0Bl5ae-83" target="XpTpxVxSgnCetN0Bl5ae-73">
           <mxGeometry x="0.1595" relative="1" as="geometry">
-            <mxPoint x="455.5" y="8980" as="targetPoint" />
+            <mxPoint x="500" y="9020" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="455.5" y="9065" />
+              <mxPoint x="500" y="9105" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="XpTpxVxSgnCetN0Bl5ae-85" value="RebaixandoUsuario" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
-          <mxGeometry x="375.5" y="8830" width="160" height="70" as="geometry">
+          <mxGeometry x="420" y="8870" width="160" height="70" as="geometry">
             <mxRectangle x="364" y="400" width="130" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -722,7 +722,7 @@
           <mxGeometry y="30" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="XpTpxVxSgnCetN0Bl5ae-87" value="PromovendoUsuario" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
-          <mxGeometry x="574.5" y="8830" width="160" height="70" as="geometry">
+          <mxGeometry x="619" y="8870" width="160" height="70" as="geometry">
             <mxRectangle x="364" y="400" width="130" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -730,7 +730,7 @@
           <mxGeometry y="30" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="XpTpxVxSgnCetN0Bl5ae-89" value="AtivandoUsuario" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
-          <mxGeometry x="217" y="8899" width="128" height="71" as="geometry">
+          <mxGeometry x="261.5" y="8939" width="128" height="71" as="geometry">
             <mxRectangle x="364" y="400" width="130" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -767,7 +767,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="XpTpxVxSgnCetN0Bl5ae-99" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="415.5" y="8699" width="80" height="80" as="geometry" />
+          <mxGeometry x="460" y="8739" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="XpTpxVxSgnCetN0Bl5ae-100" value="UsuarioSelecionado" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XpTpxVxSgnCetN0Bl5ae-75" target="XpTpxVxSgnCetN0Bl5ae-99">
           <mxGeometry relative="1" as="geometry" />
@@ -780,8 +780,8 @@
         <mxCell id="XpTpxVxSgnCetN0Bl5ae-105" value="UsuarioDesativado" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="XpTpxVxSgnCetN0Bl5ae-104" target="XpTpxVxSgnCetN0Bl5ae-89">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="281" y="8870" />
-              <mxPoint x="281" y="8870" />
+              <mxPoint x="325.5" y="8910" />
+              <mxPoint x="325.5" y="8910" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -794,10 +794,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="XpTpxVxSgnCetN0Bl5ae-104" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="241" y="8760" width="80" height="80" as="geometry" />
+          <mxGeometry x="285.5" y="8800" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="XpTpxVxSgnCetN0Bl5ae-106" value="DesativandoUsuario" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
-          <mxGeometry x="48" y="8900" width="160" height="71" as="geometry">
+          <mxGeometry x="92.5" y="8940" width="160" height="71" as="geometry">
             <mxRectangle x="364" y="400" width="130" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -808,19 +808,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XpTpxVxSgnCetN0Bl5ae-111" value="&lt;div&gt;UC11 - Gerenciar&lt;br&gt;Biblioteca&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;width=155;height=50;" vertex="1" parent="1">
-          <mxGeometry x="59" y="9437" width="720" height="1000" as="geometry" />
+          <mxGeometry x="29" y="9500" width="771" height="1000" as="geometry" />
         </mxCell>
         <mxCell id="XpTpxVxSgnCetN0Bl5ae-145" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="XpTpxVxSgnCetN0Bl5ae-113" target="XpTpxVxSgnCetN0Bl5ae-121">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XpTpxVxSgnCetN0Bl5ae-113" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
-          <mxGeometry x="167" y="9517" width="30" height="30" as="geometry" />
+          <mxGeometry x="157.5" y="9590" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="XpTpxVxSgnCetN0Bl5ae-114" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
-          <mxGeometry x="660" y="10287" width="30" height="30" as="geometry" />
+          <mxGeometry x="653.25" y="10330" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="XpTpxVxSgnCetN0Bl5ae-115" value="ExibindoLivros" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
-          <mxGeometry x="360" y="9722" width="160" height="70" as="geometry">
+          <mxGeometry x="353.25" y="9765" width="160" height="70" as="geometry">
             <mxRectangle x="364" y="400" width="130" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -829,11 +829,11 @@
         </mxCell>
         <mxCell id="XpTpxVxSgnCetN0Bl5ae-117" value="Livros encotrados" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XpTpxVxSgnCetN0Bl5ae-121" target="XpTpxVxSgnCetN0Bl5ae-115">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="440" y="9777" as="sourcePoint" />
+            <mxPoint x="433.25" y="9820" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="XpTpxVxSgnCetN0Bl5ae-120" value="BuscandoLivros" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
-          <mxGeometry x="330" y="9592" width="220" height="70" as="geometry">
+          <mxGeometry x="323.25" y="9635" width="220" height="70" as="geometry">
             <mxRectangle x="120" y="220" width="120" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -841,7 +841,7 @@
           <mxGeometry y="30" width="220" height="40" as="geometry" />
         </mxCell>
         <mxCell id="XpTpxVxSgnCetN0Bl5ae-123" value="SalvandoLivro" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
-          <mxGeometry x="359.5" y="10107" width="160" height="70" as="geometry">
+          <mxGeometry x="352.75" y="10150" width="160" height="70" as="geometry">
             <mxRectangle x="364" y="400" width="130" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -850,17 +850,17 @@
         </mxCell>
         <mxCell id="XpTpxVxSgnCetN0Bl5ae-125" value="Livro Salvo" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XpTpxVxSgnCetN0Bl5ae-124" target="XpTpxVxSgnCetN0Bl5ae-146">
           <mxGeometry x="-0.1885" y="-1" relative="1" as="geometry">
-            <mxPoint x="440.5" y="10117" as="targetPoint" />
+            <mxPoint x="433.75" y="10160" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="440" y="10202" />
-              <mxPoint x="441" y="10202" />
-              <mxPoint x="441" y="10312" />
+              <mxPoint x="433.25" y="10245" />
+              <mxPoint x="434.25" y="10245" />
+              <mxPoint x="434.25" y="10355" />
             </Array>
             <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="XpTpxVxSgnCetN0Bl5ae-126" value="AtualizandoLivro" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
-          <mxGeometry x="360.5" y="9967" width="160" height="70" as="geometry">
+          <mxGeometry x="353.75" y="10010" width="160" height="70" as="geometry">
             <mxRectangle x="364" y="400" width="130" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -868,7 +868,7 @@
           <mxGeometry y="30" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="XpTpxVxSgnCetN0Bl5ae-128" value="RemovendoLivro" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
-          <mxGeometry x="559.5" y="9967" width="160" height="70" as="geometry">
+          <mxGeometry x="552.75" y="10010" width="160" height="70" as="geometry">
             <mxRectangle x="364" y="400" width="130" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -876,7 +876,7 @@
           <mxGeometry y="30" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="XpTpxVxSgnCetN0Bl5ae-130" value="AdicionandoLivro" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
-          <mxGeometry x="162" y="9967" width="160" height="71" as="geometry">
+          <mxGeometry x="155.25" y="10010" width="160" height="71" as="geometry">
             <mxRectangle x="364" y="400" width="130" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -886,8 +886,8 @@
         <mxCell id="XpTpxVxSgnCetN0Bl5ae-132" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XpTpxVxSgnCetN0Bl5ae-129" target="XpTpxVxSgnCetN0Bl5ae-146">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="640" y="10277" />
-              <mxPoint x="481" y="10277" />
+              <mxPoint x="633.25" y="10320" />
+              <mxPoint x="474.25" y="10320" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -903,7 +903,7 @@
         </mxCell>
         <mxCell id="XpTpxVxSgnCetN0Bl5ae-135" value="Livro Adicionado" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="XpTpxVxSgnCetN0Bl5ae-131" target="XpTpxVxSgnCetN0Bl5ae-124">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="239.0000000000001" y="10097" as="sourcePoint" />
+            <mxPoint x="232.2500000000001" y="10140" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="XpTpxVxSgnCetN0Bl5ae-136" value="AtualizarLivro" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XpTpxVxSgnCetN0Bl5ae-140" target="XpTpxVxSgnCetN0Bl5ae-126">
@@ -923,13 +923,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="XpTpxVxSgnCetN0Bl5ae-140" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="400.5" y="9836" width="80" height="80" as="geometry" />
+          <mxGeometry x="393.75" y="9879" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="XpTpxVxSgnCetN0Bl5ae-141" value="Livro selecionado" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XpTpxVxSgnCetN0Bl5ae-116" target="XpTpxVxSgnCetN0Bl5ae-140">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XpTpxVxSgnCetN0Bl5ae-146" value="RegistrandoHistorico" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
-          <mxGeometry x="360.5" y="10327" width="160" height="70" as="geometry">
+          <mxGeometry x="353.75" y="10370" width="160" height="70" as="geometry">
             <mxRectangle x="364" y="400" width="130" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -938,7 +938,7 @@
         </mxCell>
         <mxCell id="XpTpxVxSgnCetN0Bl5ae-148" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="XpTpxVxSgnCetN0Bl5ae-147" target="XpTpxVxSgnCetN0Bl5ae-114">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="660" y="10097" as="targetPoint" />
+            <mxPoint x="653.25" y="10140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="XpTpxVxSgnCetN0Bl5ae-149" value="Histórico registrado" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XpTpxVxSgnCetN0Bl5ae-148">
@@ -1086,6 +1086,12 @@
         </mxCell>
         <mxCell id="XpTpxVxSgnCetN0Bl5ae-199" value="&lt;h1&gt;Gerenciar vantagens pontuação&lt;br&gt;&lt;/h1&gt;&lt;p&gt;Na tela inicial do biblioteca existe a aba &quot;Vantagens por pontuação&quot;,&amp;nbsp; disponível somente a administradores. Ao selecionar a esta aba, o sistema busca os dados salvos e exibe na tela. Os dados são editáveis em tela. Ao modificar alguma informação, o sistema irá salvar as modificações. O administrador poderá optar entre criar, editar ou remover vantagens. No caso dele optar em criar uma nova vantagem, o sistema irá verificar se é uma vantagem válida.&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="27" y="7040" width="783" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="XpTpxVxSgnCetN0Bl5ae-200" value="&lt;h1&gt;Gerenciar usuários&lt;br&gt;&lt;/h1&gt;&lt;p&gt;Na tela inicial do biblioteca existe a aba &quot;Gerenciar Usuários&quot;,&amp;nbsp; disponível somente a administradores. Ao selecionar a esta aba, o sistema busca os dados salvos e exibe na tela. Os dados são editáveis em tela. Ao modificar alguma informação, o sistema irá salvar as modificações. O administrador poderá optar entre ativar, desativar, promover ou rebaixar usuário. No caso de promoção, o usuário torna-se administrador. &lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="27.5" y="8250" width="783" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="XpTpxVxSgnCetN0Bl5ae-201" value="&lt;h1&gt;Gerenciar biblioteca&lt;br&gt;&lt;/h1&gt;&lt;p&gt;Na tela inicial do biblioteca existe a aba &quot;Gerenciar biblioteca&quot;,&amp;nbsp; disponível somente a administradores. Ao selecionar a esta aba, o sistema buscar os dados salvos e exibe na tela. Os dados são editáveis em tela. Ao modificar alguma informação, o sistema irá salvar as modificações. O administrador poderá optar entre adicionar, atualizar e remover livros. Após cada uma dessas opções o sistema salva a movimentação no histórico do administrador.&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="26.75" y="9380" width="783" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
