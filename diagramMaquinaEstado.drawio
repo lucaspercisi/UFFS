@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-18T00:39:37.225Z" agent="5.0 (Windows)" etag="ZEBAJrmT5ws6Fpzi_6I9" version="20.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-18T00:50:15.795Z" agent="5.0 (Windows)" etag="DzZhhGrcj_0Y49SCrKBJ" version="20.8.5" type="github">
   <diagram id="F2zN1XWDJCxbZWkZuF5S" name="Página-1">
-    <mxGraphModel dx="2064" dy="1504" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1032" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11,7 +11,7 @@
           <mxGeometry x="66" y="7150" width="720" height="850" as="geometry" />
         </mxCell>
         <mxCell id="l5w-JMVzP2Q6S9-00Q8j-174" value="&lt;div&gt;UC07 - Obter Doação&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;width=150;height=40;" parent="1" vertex="1">
-          <mxGeometry x="81" y="4910" width="690" height="690" as="geometry" />
+          <mxGeometry x="36.5" y="4810" width="763.5" height="610" as="geometry" />
         </mxCell>
         <mxCell id="l5w-JMVzP2Q6S9-00Q8j-48" value="&lt;div&gt;UC03 - Alugar Livro&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;width=150;height=40;" parent="1" vertex="1">
           <mxGeometry x="24.25" y="1330" width="789.5" height="690" as="geometry" />
@@ -402,13 +402,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="l5w-JMVzP2Q6S9-00Q8j-176" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" parent="1" vertex="1">
-          <mxGeometry x="190" y="4980" width="30" height="30" as="geometry" />
+          <mxGeometry x="219" y="4850" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="l5w-JMVzP2Q6S9-00Q8j-177" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" parent="1" vertex="1">
-          <mxGeometry x="690" y="5215" width="30" height="30" as="geometry" />
+          <mxGeometry x="719" y="5085" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="l5w-JMVzP2Q6S9-00Q8j-178" value="CadastrandoInventario" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
-          <mxGeometry x="410" y="5320" width="160" height="70" as="geometry">
+          <mxGeometry x="439" y="5190" width="160" height="70" as="geometry">
             <mxRectangle x="364" y="400" width="130" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -427,10 +427,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="l5w-JMVzP2Q6S9-00Q8j-183" value="" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="450" y="5190" width="80" height="80" as="geometry" />
+          <mxGeometry x="479" y="5060" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="l5w-JMVzP2Q6S9-00Q8j-186" value="RegistrandoHistorico" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
-          <mxGeometry x="410" y="5460" width="160" height="70" as="geometry">
+          <mxGeometry x="439" y="5330" width="160" height="70" as="geometry">
             <mxRectangle x="364" y="400" width="130" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -441,7 +441,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="l5w-JMVzP2Q6S9-00Q8j-189" value="VerificandoCriteriosDoacao" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
-          <mxGeometry x="380" y="5075" width="220" height="70" as="geometry">
+          <mxGeometry x="409" y="4945" width="220" height="70" as="geometry">
             <mxRectangle x="120" y="220" width="120" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -1077,6 +1077,9 @@
         </mxCell>
         <mxCell id="XpTpxVxSgnCetN0Bl5ae-196" value="&lt;h1&gt;Ver Histórico&lt;br&gt;&lt;/h1&gt;&lt;p&gt;Na tela inicial do biblioteca existe a aba ver histórico. Ao selecionar a aba ver histórico o sistema exibe todos os registros de movimentações pertencentes a conta do usuário.&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="30" y="4070" width="783" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="XpTpxVxSgnCetN0Bl5ae-197" value="&lt;h1&gt;Obter Doação&lt;br&gt;&lt;/h1&gt;&lt;p&gt;Na tela inicial do biblioteca existe a aba obter doação. Ao selecionar a aba obter doação o sistema exibe todos os livros disponíveis gratuitamente. O usuário selecionará o livro do seu interesse e o sistema irá verificar se o usuário atende os critérios para receber doação. Caso o usuário atenda os critérios, o livro é adicionado ao seu inventário o e histórico de movimentação é registrado.&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30.75" y="4690" width="783" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
