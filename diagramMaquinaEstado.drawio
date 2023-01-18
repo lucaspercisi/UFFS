@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-18T01:05:38.540Z" agent="5.0 (Windows)" etag="jfBOEs1cF26sPO1cXygy" version="20.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-18T01:09:17.675Z" agent="5.0 (Windows)" etag="4D4cHQ7tQD381Hc5i7vc" version="20.8.5" type="github">
   <diagram id="F2zN1XWDJCxbZWkZuF5S" name="Página-1">
-    <mxGraphModel dx="1588" dy="1157" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2949" dy="2149" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -947,19 +947,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="XpTpxVxSgnCetN0Bl5ae-150" value="&lt;div&gt;UC12 - Validar Doações&lt;br&gt;&lt;/div&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;width=155;height=50;" vertex="1" parent="1">
-          <mxGeometry x="74" y="10570" width="720" height="1000" as="geometry" />
+          <mxGeometry x="29" y="10670" width="771" height="1000" as="geometry" />
         </mxCell>
         <mxCell id="XpTpxVxSgnCetN0Bl5ae-151" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="XpTpxVxSgnCetN0Bl5ae-152" target="XpTpxVxSgnCetN0Bl5ae-158">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XpTpxVxSgnCetN0Bl5ae-152" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
-          <mxGeometry x="174" y="10640" width="30" height="30" as="geometry" />
+          <mxGeometry x="124" y="10750" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="XpTpxVxSgnCetN0Bl5ae-153" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
-          <mxGeometry x="682" y="11480" width="30" height="30" as="geometry" />
+          <mxGeometry x="632" y="11590" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="XpTpxVxSgnCetN0Bl5ae-154" value="ExibindoLivros" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
-          <mxGeometry x="370" y="10905" width="160" height="70" as="geometry">
+          <mxGeometry x="320" y="11015" width="160" height="70" as="geometry">
             <mxRectangle x="364" y="400" width="130" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -968,11 +968,11 @@
         </mxCell>
         <mxCell id="XpTpxVxSgnCetN0Bl5ae-156" value="Doacoes encotrados" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XpTpxVxSgnCetN0Bl5ae-158" target="XpTpxVxSgnCetN0Bl5ae-183">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="450" y="10960" as="sourcePoint" />
+            <mxPoint x="400" y="11070" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="XpTpxVxSgnCetN0Bl5ae-157" value="BuscandoDoacoes" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
-          <mxGeometry x="319.5" y="10650" width="260" height="70" as="geometry">
+          <mxGeometry x="269.5" y="10760" width="260" height="70" as="geometry">
             <mxRectangle x="120" y="220" width="120" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -980,7 +980,7 @@
           <mxGeometry y="30" width="260" height="40" as="geometry" />
         </mxCell>
         <mxCell id="XpTpxVxSgnCetN0Bl5ae-159" value="AtulizandoStatus" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
-          <mxGeometry x="369.5" y="11290" width="160" height="70" as="geometry">
+          <mxGeometry x="319.5" y="11400" width="160" height="70" as="geometry">
             <mxRectangle x="364" y="400" width="130" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -989,16 +989,16 @@
         </mxCell>
         <mxCell id="XpTpxVxSgnCetN0Bl5ae-161" value="Livro Salvo" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XpTpxVxSgnCetN0Bl5ae-160" target="XpTpxVxSgnCetN0Bl5ae-153">
           <mxGeometry x="-0.1885" y="-1" relative="1" as="geometry">
-            <mxPoint x="450.5" y="11510" as="targetPoint" />
+            <mxPoint x="400.5" y="11620" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="449" y="11385" />
-              <mxPoint x="450" y="11495" />
+              <mxPoint x="399" y="11495" />
+              <mxPoint x="400" y="11605" />
             </Array>
             <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="XpTpxVxSgnCetN0Bl5ae-164" value="ReprovandoLivro" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
-          <mxGeometry x="569.5" y="11150" width="160" height="70" as="geometry">
+          <mxGeometry x="519.5" y="11260" width="160" height="70" as="geometry">
             <mxRectangle x="364" y="400" width="130" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -1006,7 +1006,7 @@
           <mxGeometry y="30" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="XpTpxVxSgnCetN0Bl5ae-166" value="AprovandoLivro" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
-          <mxGeometry x="172" y="11150" width="198" height="71" as="geometry">
+          <mxGeometry x="122" y="11260" width="198" height="71" as="geometry">
             <mxRectangle x="364" y="400" width="130" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -1016,7 +1016,7 @@
         <mxCell id="XpTpxVxSgnCetN0Bl5ae-168" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="XpTpxVxSgnCetN0Bl5ae-165" target="XpTpxVxSgnCetN0Bl5ae-160">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="649" y="11330" />
+              <mxPoint x="599" y="11440" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1027,7 +1027,7 @@
         </mxCell>
         <mxCell id="XpTpxVxSgnCetN0Bl5ae-171" value="Livro Aprovado" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="XpTpxVxSgnCetN0Bl5ae-167" target="XpTpxVxSgnCetN0Bl5ae-160">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="249.0000000000001" y="11280" as="sourcePoint" />
+            <mxPoint x="199.0000000000001" y="11390" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="XpTpxVxSgnCetN0Bl5ae-173" value="ReprovarDoacao" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XpTpxVxSgnCetN0Bl5ae-176" target="XpTpxVxSgnCetN0Bl5ae-164">
@@ -1044,13 +1044,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="XpTpxVxSgnCetN0Bl5ae-176" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="410.5" y="11019" width="80" height="80" as="geometry" />
+          <mxGeometry x="360.5" y="11129" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="XpTpxVxSgnCetN0Bl5ae-177" value="Livro selecionado" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XpTpxVxSgnCetN0Bl5ae-155" target="XpTpxVxSgnCetN0Bl5ae-176">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XpTpxVxSgnCetN0Bl5ae-183" value="ConsultadoLivros" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
-          <mxGeometry x="370" y="10790" width="160" height="70" as="geometry">
+          <mxGeometry x="320" y="10900" width="160" height="70" as="geometry">
             <mxRectangle x="364" y="400" width="130" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -1092,6 +1092,9 @@
         </mxCell>
         <mxCell id="XpTpxVxSgnCetN0Bl5ae-201" value="&lt;h1&gt;Gerenciar biblioteca&lt;br&gt;&lt;/h1&gt;&lt;p&gt;Na tela inicial do biblioteca existe a aba &quot;Gerenciar biblioteca&quot;,&amp;nbsp; disponível somente a administradores. Ao selecionar a esta aba, o sistema buscar os dados salvos e exibe na tela. Os dados são editáveis em tela. Ao modificar alguma informação, o sistema irá salvar as modificações. O administrador poderá optar entre adicionar, atualizar e remover livros. Após cada uma dessas opções o sistema salva a movimentação no histórico do administrador.&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="26.75" y="9380" width="783" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="XpTpxVxSgnCetN0Bl5ae-202" value="&lt;h1&gt;Validar Doações&lt;br&gt;&lt;/h1&gt;&lt;p&gt;Na tela inicial do biblioteca existe a aba &quot;Validar Doações&quot;,&amp;nbsp; disponível somente a administradores. Ao selecionar a esta aba, o sistema buscar os livros pendentes de analise para doação e exibe na tela. Os dados são editáveis em tela. Ao modificar alguma informação, o sistema irá salvar as modificações. O administrador poderá optar entre aprovar ou reprovar livros. Após cada uma dessas opções, o sistema atualiza o status do livro conforme sua escolha.&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="23" y="10540" width="783" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
