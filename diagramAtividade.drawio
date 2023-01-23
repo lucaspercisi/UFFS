@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-23T23:44:45.267Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="mfLHJP_Xof1U-WIMhKrx" version="20.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-23T23:45:11.850Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="lu3-Q-kz1ccpcXD66WRg" version="20.8.5" type="github">
   <diagram id="F2zN1XWDJCxbZWkZuF5S" name="Página-1">
     <mxGraphModel dx="1032" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -132,12 +132,6 @@
             <mxPoint x="426.25" y="1785" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="l5w-JMVzP2Q6S9-00Q8j-77" value="Livro cadastrado" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="kyMAhO8fMGLWvywvnktx-14" target="kyMAhO8fMGLWvywvnktx-15" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="426.25" y="1855" as="sourcePoint" />
-            <mxPoint x="426.25" y="1895" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="l5w-JMVzP2Q6S9-00Q8j-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="kyMAhO8fMGLWvywvnktx-15" target="l5w-JMVzP2Q6S9-00Q8j-51" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="506.25" y="1935" as="sourcePoint" />
@@ -217,9 +211,6 @@
           <mxGeometry x="-0.5" y="1" relative="1" as="geometry">
             <mxPoint x="-27" as="offset" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="l5w-JMVzP2Q6S9-00Q8j-114" value="Histórico registrado" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="577.2474854655369" y="1930.0025663764195" as="geometry" />
         </mxCell>
         <mxCell id="l5w-JMVzP2Q6S9-00Q8j-115" value="&lt;div&gt;UC05 - Ver inventário&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;width=150;height=40;" parent="1" vertex="1">
           <mxGeometry x="34.5" y="3640" width="765.5" height="410" as="geometry" />
@@ -1056,6 +1047,9 @@
         </mxCell>
         <mxCell id="kyMAhO8fMGLWvywvnktx-13" value="Alugar Livro" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="366.25" y="1740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kyMAhO8fMGLWvywvnktx-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kyMAhO8fMGLWvywvnktx-14" target="kyMAhO8fMGLWvywvnktx-15">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="kyMAhO8fMGLWvywvnktx-14" value="Cadastrar livro no inventário" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="366" y="1830" width="120" height="60" as="geometry" />
