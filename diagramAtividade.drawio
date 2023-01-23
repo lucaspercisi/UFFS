@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-23T23:49:29.523Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="IZZk2NSb1ZmWoOAU0PN8" version="20.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-23T23:51:15.332Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="d5KUhefnaF-KBP4NofI-" version="20.8.5" type="github">
   <diagram id="F2zN1XWDJCxbZWkZuF5S" name="Página-1">
-    <mxGraphModel dx="1214" dy="887" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1032" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -189,22 +189,16 @@
         <mxCell id="l5w-JMVzP2Q6S9-00Q8j-115" value="&lt;div&gt;UC05 - Ver inventário&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;width=150;height=40;" parent="1" vertex="1">
           <mxGeometry x="34.5" y="3640" width="765.5" height="410" as="geometry" />
         </mxCell>
-        <mxCell id="l5w-JMVzP2Q6S9-00Q8j-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="l5w-JMVzP2Q6S9-00Q8j-117" target="l5w-JMVzP2Q6S9-00Q8j-125" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="l5w-JMVzP2Q6S9-00Q8j-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="l5w-JMVzP2Q6S9-00Q8j-117" target="kyMAhO8fMGLWvywvnktx-29" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="247" y="3725" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="l5w-JMVzP2Q6S9-00Q8j-117" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" parent="1" vertex="1">
           <mxGeometry x="232" y="3650" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="l5w-JMVzP2Q6S9-00Q8j-118" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" parent="1" vertex="1">
           <mxGeometry x="712" y="3855" width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="l5w-JMVzP2Q6S9-00Q8j-119" value="ExibindoInventário" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
-          <mxGeometry x="432" y="3960" width="160" height="70" as="geometry">
-            <mxRectangle x="364" y="400" width="130" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="l5w-JMVzP2Q6S9-00Q8j-120" value="entry / ExibirInventário()" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="l5w-JMVzP2Q6S9-00Q8j-119" vertex="1">
-          <mxGeometry y="30" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="l5w-JMVzP2Q6S9-00Q8j-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="l5w-JMVzP2Q6S9-00Q8j-124" target="l5w-JMVzP2Q6S9-00Q8j-118" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -214,27 +208,24 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="l5w-JMVzP2Q6S9-00Q8j-123" value="Registros Localizados" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="l5w-JMVzP2Q6S9-00Q8j-124" target="l5w-JMVzP2Q6S9-00Q8j-119" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="l5w-JMVzP2Q6S9-00Q8j-123" value="Registros Localizados" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="l5w-JMVzP2Q6S9-00Q8j-124" target="kyMAhO8fMGLWvywvnktx-30" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="512" y="3960" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="l5w-JMVzP2Q6S9-00Q8j-124" value="" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="472" y="3830" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="l5w-JMVzP2Q6S9-00Q8j-125" value="ConsultandoInventário" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
-          <mxGeometry x="167" y="3725" width="160" height="70" as="geometry">
-            <mxRectangle x="120" y="220" width="120" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="l5w-JMVzP2Q6S9-00Q8j-126" value="do / verificarInventário()" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="l5w-JMVzP2Q6S9-00Q8j-125" vertex="1">
-          <mxGeometry y="30" width="160" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="l5w-JMVzP2Q6S9-00Q8j-132" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="l5w-JMVzP2Q6S9-00Q8j-126" target="l5w-JMVzP2Q6S9-00Q8j-124" edge="1">
+        <mxCell id="l5w-JMVzP2Q6S9-00Q8j-132" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="kyMAhO8fMGLWvywvnktx-29" target="l5w-JMVzP2Q6S9-00Q8j-124" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="402" y="3765" as="targetPoint" />
+            <mxPoint x="327" y="3765" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="l5w-JMVzP2Q6S9-00Q8j-136" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="l5w-JMVzP2Q6S9-00Q8j-120" target="l5w-JMVzP2Q6S9-00Q8j-118" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="l5w-JMVzP2Q6S9-00Q8j-136" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="kyMAhO8fMGLWvywvnktx-30" target="l5w-JMVzP2Q6S9-00Q8j-118" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="592" y="4000" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="l5w-JMVzP2Q6S9-00Q8j-137" value="&lt;div&gt;UC06 - Ver histórico&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;width=150;height=40;" parent="1" vertex="1">
           <mxGeometry x="34.5" y="4172" width="765.5" height="428" as="geometry" />
@@ -1051,6 +1042,12 @@
         </mxCell>
         <mxCell id="kyMAhO8fMGLWvywvnktx-25" value="Informar&amp;nbsp;Dados" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="142.5" y="2640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kyMAhO8fMGLWvywvnktx-29" value="Consuktar Inventário" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="187" y="3730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kyMAhO8fMGLWvywvnktx-30" value="Exibir Inventário" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="452" y="3970" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
