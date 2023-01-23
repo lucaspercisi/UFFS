@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-23T23:31:44.288Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="a4rMJvonsM2uNpO_W5hx" version="20.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-23T23:37:42.948Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="riF2N9fNriOWE1D8vYTR" version="20.8.5" type="github">
   <diagram id="F2zN1XWDJCxbZWkZuF5S" name="Página-1">
-    <mxGraphModel dx="1032" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="860" dy="628" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -85,7 +85,7 @@
         <mxCell id="l5w-JMVzP2Q6S9-00Q8j-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="l5w-JMVzP2Q6S9-00Q8j-28" target="l5w-JMVzP2Q6S9-00Q8j-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="l5w-JMVzP2Q6S9-00Q8j-27" value="Conta Inválida" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="l5w-JMVzP2Q6S9-00Q8j-26" vertex="1" connectable="0">
+        <mxCell id="l5w-JMVzP2Q6S9-00Q8j-27" value="Dados inválidos" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="l5w-JMVzP2Q6S9-00Q8j-26" vertex="1" connectable="0">
           <mxGeometry x="-0.241" y="-4" relative="1" as="geometry">
             <mxPoint x="23" y="-4" as="offset" />
           </mxGeometry>
@@ -95,7 +95,7 @@
             <mxPoint x="419" y="410" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="l5w-JMVzP2Q6S9-00Q8j-45" value="&lt;div&gt;Conta Válida&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="l5w-JMVzP2Q6S9-00Q8j-38" vertex="1" connectable="0">
+        <mxCell id="l5w-JMVzP2Q6S9-00Q8j-45" value="&lt;div&gt;Dados válidos&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="l5w-JMVzP2Q6S9-00Q8j-38" vertex="1" connectable="0">
           <mxGeometry x="-0.1" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -1062,16 +1062,19 @@
         <mxCell id="XpTpxVxSgnCetN0Bl5ae-202" value="&lt;h1&gt;Validar Doações&lt;br&gt;&lt;/h1&gt;&lt;p&gt;Na tela inicial do biblioteca existe a aba &quot;Validar Doações&quot;,&amp;nbsp; disponível somente a administradores. Ao selecionar a esta aba, o sistema buscar os livros pendentes de analise para doação e exibe na tela. Os dados são editáveis em tela. Ao modificar alguma informação, o sistema irá salvar as modificações. O administrador poderá optar entre aprovar ou reprovar livros. Após cada uma dessas opções, o sistema atualiza o status do livro conforme sua escolha.&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="23" y="10540" width="783" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="kyMAhO8fMGLWvywvnktx-2" value="Validando Dados" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="kyMAhO8fMGLWvywvnktx-2" value="Validar Dados" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="252" y="267" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="kyMAhO8fMGLWvywvnktx-3" value="Salvando Conta" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="kyMAhO8fMGLWvywvnktx-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="kyMAhO8fMGLWvywvnktx-3" target="l5w-JMVzP2Q6S9-00Q8j-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kyMAhO8fMGLWvywvnktx-3" value="Salvar Conta" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="443.25" y="410" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kyMAhO8fMGLWvywvnktx-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="kyMAhO8fMGLWvywvnktx-5" target="kyMAhO8fMGLWvywvnktx-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kyMAhO8fMGLWvywvnktx-5" value="Entrada de Dados" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="kyMAhO8fMGLWvywvnktx-5" value="Informar&amp;nbsp;Dados" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="61.5" y="267" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
