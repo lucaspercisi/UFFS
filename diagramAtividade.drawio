@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-24T00:16:04.357Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="hRUTECtCbJAqpwZNgOTA" version="20.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-24T00:18:44.557Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="MAca15T5sTD5zdjabNML" version="20.8.5" type="github">
   <diagram id="F2zN1XWDJCxbZWkZuF5S" name="Página-1">
     <mxGraphModel dx="860" dy="628" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -300,23 +300,10 @@
         <mxCell id="XpTpxVxSgnCetN0Bl5ae-3" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" parent="1" vertex="1">
           <mxGeometry x="227" y="6050" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="XpTpxVxSgnCetN0Bl5ae-4" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" parent="1" vertex="1">
-          <mxGeometry x="701" y="6439" width="30" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="XpTpxVxSgnCetN0Bl5ae-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="kyMAhO8fMGLWvywvnktx-57" target="kyMAhO8fMGLWvywvnktx-52" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="322" y="6165" as="sourcePoint" />
             <mxPoint x="397" y="6165" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="XpTpxVxSgnCetN0Bl5ae-24" value="Criterio de doação Salvo" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="kyMAhO8fMGLWvywvnktx-55" target="XpTpxVxSgnCetN0Bl5ae-4" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="507" y="6540" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="468" y="6510" />
-              <mxPoint x="716" y="6510" />
-            </Array>
-            <mxPoint x="507" y="6460.000000000001" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="XpTpxVxSgnCetN0Bl5ae-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="XpTpxVxSgnCetN0Bl5ae-29" target="XpTpxVxSgnCetN0Bl5ae-34" edge="1">
@@ -1011,17 +998,38 @@
         <mxCell id="kyMAhO8fMGLWvywvnktx-52" value="Buscar critérios de doação" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="407.5" y="6140" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="kyMAhO8fMGLWvywvnktx-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kyMAhO8fMGLWvywvnktx-54" target="kyMAhO8fMGLWvywvnktx-55">
+        <mxCell id="kyMAhO8fMGLWvywvnktx-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kyMAhO8fMGLWvywvnktx-54" target="kyMAhO8fMGLWvywvnktx-59">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="kyMAhO8fMGLWvywvnktx-54" value="Exibir Criterios de doação" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="407.5" y="6265" width="120" height="55" as="geometry" />
+          <mxGeometry x="407.5" y="6240" width="120" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="kyMAhO8fMGLWvywvnktx-55" value="Salavar Criterios de Doação" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="407.5" y="6390" width="120" height="60" as="geometry" />
+        <mxCell id="kyMAhO8fMGLWvywvnktx-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="kyMAhO8fMGLWvywvnktx-55" target="kyMAhO8fMGLWvywvnktx-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kyMAhO8fMGLWvywvnktx-55" value="Salvar Criterios de doação" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="79" y="6369" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kyMAhO8fMGLWvywvnktx-57" value="Ver critérios de doação" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="181.5" y="6140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kyMAhO8fMGLWvywvnktx-62" value="Nenhuma ação tomada" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kyMAhO8fMGLWvywvnktx-59" target="kyMAhO8fMGLWvywvnktx-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kyMAhO8fMGLWvywvnktx-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="kyMAhO8fMGLWvywvnktx-59" target="kyMAhO8fMGLWvywvnktx-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kyMAhO8fMGLWvywvnktx-59" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="427.5" y="6359" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kyMAhO8fMGLWvywvnktx-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="kyMAhO8fMGLWvywvnktx-60" target="kyMAhO8fMGLWvywvnktx-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kyMAhO8fMGLWvywvnktx-60" value="Editar Crotério de doação" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240.5" y="6369" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kyMAhO8fMGLWvywvnktx-61" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="449" y="6490" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
